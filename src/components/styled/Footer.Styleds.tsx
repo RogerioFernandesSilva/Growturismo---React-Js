@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterStyled = styled.footer`
+export const FooterStyleds = styled.footer`
   background-color: rgb(18, 42, 87);
   height: 70px;
   display: flex;

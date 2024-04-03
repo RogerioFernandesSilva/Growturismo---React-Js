@@ -1,4 +1,4 @@
-import { FooterStyled } from "../../components/styled/Footer.styled";
+import { FooterStyleds } from "../../components/styled/Footer.Styleds";
 import { HeaderStyled } from "../../components/styled/Header.Styled";
 
 export function DefaultLayout({ children }) {
@@ -28,12 +28,12 @@ export function DefaultLayout({ children }) {
         </div>
       </HeaderStyled>
       {children}
-      <FooterStyled>
+      <FooterStyleds>
         <div>
           <p>©2024 Full Stack Growdev</p>
           <p>17ª Edição</p>
         </div>
-      </FooterStyled>
+      </FooterStyleds>
     </>
   );
 }
