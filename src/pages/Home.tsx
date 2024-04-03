@@ -1,6 +1,7 @@
 import { BodyHomeContainer } from "../components/styled/BodyHomeContainer";
 import { DefaultLayout } from "../config/layout/DefaultLayout";
 import { ButtonStyled } from "../components/styled/ButtonStyled";
+import homeImg from "../assets/home.svg";
 
 export function Home() {
   return (
@@ -15,7 +16,7 @@ export function Home() {
             </ButtonStyled>
           </div>
           <div>
-            <img src="HomeImage" />
+            <img src={homeImg} alt="homeImg" />
           </div>
         </BodyHomeContainer>
       </DefaultLayout>
